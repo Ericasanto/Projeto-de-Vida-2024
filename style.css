@@ -1,0 +1,26 @@
+
+:root{
+    --cor-de-fundo: #640f59;
+    --branco: #e400b2;
+    --botao-ativo: #e51ff7;
+    --botão-inativo:#66027a;
+    --texto-fundo:#29acb6;
+    --verde: #6FFF57;
+
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'shakra- pech', sans-serif;
+    
+
+}
+.coteudo-principal {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+}
