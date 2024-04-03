@@ -47,14 +47,25 @@ margin: 0 auto;
     border-right: 2px solid var(--botao-ativo); 
     border-top: none;
 }
+
 .botoes {
     display: block;
 }
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
     }
-
+    .aba-conteudo.ativo{
+        display: block;
+    }
+    
+    .abas-textos{
+        background-color: var(--texto-fundo);
+        padding: 40px;
+        border-radius: 0 0 40px 40px;
+    }
+    
+    
 @media screen and (min-width: 768px) {
     .botoes {
         display: flex;
@@ -68,4 +79,4 @@ margin: 0 auto;
         border-radius: 0 40px 0 0;
     }
 }
-   
+
